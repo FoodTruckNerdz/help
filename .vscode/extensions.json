@@ -1,4 +1,21 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
-  "unwantedRecommendations": []
+  "recommendations": [
+    "astro-build.astro-vscode",
+    // Core Formatters & Linters
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+
+    // Documentation (Markdown & Asciidoc)
+    "asciidoctor.asciidoctor-vscode",
+    "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+    "bierner.markdown-mermaid",
+
+    // Git & Collaboration
+    "github.vscode-pull-request-github",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+
+    // Utilities
+    "henoc.svgeditor"
+  ]
 }

@@ -1,0 +1,18 @@
+= Documentation
+
+This folder is an Antora documentation component for the Help repository.
+
+== Structure
+
+* `antora.yml` - Component descriptor defining name, version, and navigation
+* `modules/` - Documentation modules (typically ROOT)
+** `modules/ROOT/pages/` - AsciiDoc documentation pages
+** `modules/ROOT/nav.adoc` - Navigation structure
+
+== Antora Integration
+
+This documentation is aggregated into the unified FoodTruckNerds documentation site via the playbook in the https://github.com/FoodTruckNerds/docs[docs repository].
+
+Published site: https://foodtrucknerds.github.io/docs
+
+NOTE: The Help repository also contains an Astro + Starlight documentation site for public-facing help at `help.foodtrucknerdz.com`. The Antora component here is for the internal documentation site.

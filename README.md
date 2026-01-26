@@ -5,7 +5,7 @@ This repository contains the customer-facing help documentation for FoodTruckNer
 ## Structure
 
 - **Astro + Starlight**: Landing page at root (`help.foodtrucknerdz.com`) and documentation at `/docs` (`help.foodtrucknerdz.com/docs`)
-- **Antora Docs**: Located in `docs/antora/` for use with the internal documentation site's Antora playbook
+- **Antora Docs**: Located in `docs/` for use with the internal documentation site's Antora playbook
 
 ## Development
 
