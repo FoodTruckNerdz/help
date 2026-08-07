@@ -1,16 +1,18 @@
 <a id="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 <div align="center">
-  <h1>FoodTruckNerdz Help Center</h1>
-  <p>The Help site and help docs for users.</p>
-  <p>
+  <a href="https://github.com/FoodTruckNerdz/help/graphs/contributors"><img src="https://img.shields.io/github/contributors/FoodTruckNerdz/help.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/FoodTruckNerdz/help/network/members"><img src="https://img.shields.io/github/forks/FoodTruckNerdz/help.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/FoodTruckNerdz/help/stargazers"><img src="https://img.shields.io/github/stars/FoodTruckNerdz/help.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/FoodTruckNerdz/help/issues"><img src="https://img.shields.io/github/issues/FoodTruckNerdz/help.svg?style=for-the-badge" alt="Issues"></a>
+
+  <h1 align="center">FoodTruckNerdz Help Center</h1>
+
+  <p align="center">
+    The Help site and help docs for users.
+    <br />
+    <br />
     <a href="https://help.foodtrucknerdz.com">Visit site</a>
-    ·
+    &middot;
     <a href="https://github.com/FoodTruckNerdz/help/issues">Report Bug</a>
   </p>
 </div>
@@ -61,12 +63,3 @@ Site: https://www.foodtrucknerdz.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/FoodTruckNerdz/help.svg?style=for-the-badge
-[contributors-url]: https://github.com/FoodTruckNerdz/help/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/FoodTruckNerdz/help.svg?style=for-the-badge
-[forks-url]: https://github.com/FoodTruckNerdz/help/network/members
-[stars-shield]: https://img.shields.io/github/stars/FoodTruckNerdz/help.svg?style=for-the-badge
-[stars-url]: https://github.com/FoodTruckNerdz/help/stargazers
-[issues-shield]: https://img.shields.io/github/issues/FoodTruckNerdz/help.svg?style=for-the-badge
-[issues-url]: https://github.com/FoodTruckNerdz/help/issues
