@@ -1,2 +1,2 @@
 * xref:index.adoc[Help Documentation]
-
+* xref:changelog.adoc[Changelog]

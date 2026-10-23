@@ -63,3 +63,6 @@ Site: https://www.foodtrucknerdz.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Changelog
+
+See [the changelog](docs/modules/ROOT/pages/changelog.adoc).
