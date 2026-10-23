@@ -1,0 +1,31 @@
+= Changelog
+
+Functional changes to the Help repository. Each date links to a detail page.
+
+== 2026-10-23
+
+* xref:changelog-details/2026-10-23-allow-list-gitignore.adoc[2026-10-23] — Allow-list `.gitignore` and contributor documentation
+
+== 2026-10-06
+
+* xref:changelog-details/2026-10-06-dependabot.adoc[2026-10-06] — Dependabot for GitHub Actions
+
+== 2026-10-05
+
+* xref:changelog-details/2026-10-05-encoding-guard.adoc[2026-10-05] — UTF-8 encoding guard in CI
+
+== 2026-08-07
+
+* xref:changelog-details/2026-08-07-readme-template.adoc[2026-08-07] — README layout and centered GitHub header
+
+== 2026-06-13
+
+* xref:changelog-details/2026-06-13-tooling.adoc[2026-06-13] — dprint, Antora title, pretext dependency
+
+== 2026-01-26
+
+* xref:changelog-details/2026-01-26-antora-layout.adoc[2026-01-26] — Antora component path under `docs/`
+
+== 2025-12-01
+
+* xref:changelog-details/2025-12-01-initial-commit.adoc[2025-12-01] — Initial Help site and Antora scaffold

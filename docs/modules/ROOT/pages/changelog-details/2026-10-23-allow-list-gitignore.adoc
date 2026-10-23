@@ -1,0 +1,19 @@
+= 2026-10-23 — Allow-list `.gitignore`
+
+== Summary
+
+Replaced deny-list ignores with an allow-list `.gitignore` so only explicitly whitelisted paths are tracked, matching FoodTruckNerdz agent rules.
+
+== Motivation
+
+Allow-list ignores reduce the risk of accidentally committing local artifacts, secrets, or machine-specific files when new tools create dotfiles or caches at the repository root.
+
+== Changes
+
+* Root pattern `*` with `!*/` and explicit `!/…` entries for tracked config, `docs/`, `src/`, `public/`, and related paths
+* Re-ignore `node_modules/`, `dist/`, `.astro/`, log files, `.env*`, and `.DS_Store` inside allowed directories
+* Header comment reminding contributors to add `!` entries for new root paths
+
+== Contributor workflow
+
+See xref:developing.adoc#allow-list-gitignore[Allow-list `.gitignore`] in the developing guide before adding files at the repository root.

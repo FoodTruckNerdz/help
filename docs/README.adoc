@@ -13,6 +13,12 @@ This folder is an Antora documentation component for the Help repository.
 
 This documentation is aggregated into the unified FoodTruckNerds documentation site via the playbook in the https://github.com/FoodTruckNerds/docs[docs repository].
 
-Published site: https://foodtrucknerds.github.io/docs
+Published site: https://docs.foodtrucknerdz.com/help/latest/
 
-NOTE: The Help repository also contains an Astro + Starlight documentation site for public-facing help at `help.foodtrucknerdz.com`. The Antora component here is for the internal documentation site.
+== Pages
+
+* `modules/ROOT/pages/index.adoc` — component overview
+* `modules/ROOT/pages/developing.adoc` — contributor setup and allow-list `.gitignore`
+* `modules/ROOT/pages/changelog.adoc` — changelog index with detail pages under `changelog-details/`
+
+NOTE: The Help repository also contains an Astro + Starlight documentation site for public-facing help at `help.foodtrucknerdz.com`. The Antora component here is aggregated into the org playbook in the `docs` repository.

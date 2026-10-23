@@ -1,0 +1,76 @@
+= Developing the Help site
+
+This repository ships the public Help center (Astro + Starlight) and an Antora component aggregated at link:https://docs.foodtrucknerdz.com[FTN Docs].
+
+== Prerequisites
+
+* Node.js (LTS)
+* link:https://pnpm.io/[pnpm]
+
+== Local workflow
+
+[source,bash]
+----
+pnpm install
+pnpm dev
+pnpm build
+pnpm preview
+----
+
+* `pnpm dev` — Astro dev server (Starlight at `/docs`)
+* `pnpm build` — production build to `dist/`
+* `pnpm preview` — serve the production build locally
+
+== Repository layout
+
+[cols="1,2",options="header"]
+|===
+| Path | Purpose
+
+| `src/` | Astro pages, Starlight content, and assets
+| `public/` | Static files copied to the site root
+| `docs/` | Antora component (`help`) for link:https://docs.foodtrucknerdz.com[docs.foodtrucknerdz.com]
+| `.github/workflows/` | CI (encoding guard, Dependabot config)
+|===
+
+Public URLs:
+
+* Landing: `https://help.foodtrucknerdz.com`
+* Starlight docs: `https://help.foodtrucknerdz.com/docs`
+
+[[allow-list-gitignore]]
+== Allow-list `.gitignore`
+
+This repo uses an *allow-list* `.gitignore` aligned with FoodTruckNerdz agent rules:
+
+. `*` ignores everything at the repository root.
+. `!*/` allows Git to descend into directories so nested rules can apply.
+. Explicit `!/path` entries whitelist tracked files and directories.
+. Patterns such as `node_modules/`, `dist/`, and `.env` re-ignore generated or local files inside allowed trees.
+
+When you add a **new tracked file or directory at the repository root**, add a matching `!` line in `.gitignore` before committing. Without it, `git status` may not show the new path and `git add` can fail silently for ignored files.
+
+Example — tracking a new root config file:
+
+[source]
+----
+!/my-new-config.json5
+----
+
+Example — tracking a new top-level directory:
+
+[source]
+----
+!/scripts/**
+----
+
+See xref:changelog.adoc[changelog] for when this policy was adopted.
+
+== Text encoding CI
+
+The xref:changelog-details/2026-10-05-encoding-guard.adoc[encoding guard] workflow blocks mojibake in tracked text files. Intentional exceptions use `mojibake-guard: allow` on the line or entries in `.encoding-allow` (see `dev-centr/agent-rules` encoding guard docs).
+
+== Related documentation
+
+* xref:index.adoc[Help component overview]
+* xref:changelog.adoc[Changelog]
