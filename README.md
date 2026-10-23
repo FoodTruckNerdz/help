@@ -4,6 +4,8 @@
   <a href="https://github.com/FoodTruckNerdz/help/network/members"><img src="https://img.shields.io/github/forks/FoodTruckNerdz/help.svg?style=for-the-badge" alt="Forks"></a>
   <a href="https://github.com/FoodTruckNerdz/help/stargazers"><img src="https://img.shields.io/github/stars/FoodTruckNerdz/help.svg?style=for-the-badge" alt="Stargazers"></a>
   <a href="https://github.com/FoodTruckNerdz/help/issues"><img src="https://img.shields.io/github/issues/FoodTruckNerdz/help.svg?style=for-the-badge" alt="Issues"></a>
+  <a href="https://docs.foodtrucknerdz.com/help/latest/"><img src="https://img.shields.io/badge/Docs-FoodTruckNerdz-blue?style=for-the-badge" alt="Docs | FoodTruckNerdz"></a>
+  <a href="https://github.com/FoodTruckNerdz/help/actions/workflows/encoding-guard.yml"><img src="https://github.com/FoodTruckNerdz/help/actions/workflows/encoding-guard.yml/badge.svg" alt="Encoding guard CI"></a>
 
   <h1 align="center">FoodTruckNerdz Help Center</h1>
 
@@ -30,26 +32,23 @@
 
 This repository contains the customer-facing help documentation for FoodTruckNerdz.
 
+Canonical readme source: [README.adoc](README.adoc).
+
 ### Structure
 
 - **Astro + Starlight**: Landing page at root (`help.foodtrucknerdz.com`) and documentation at `/docs` (`help.foodtrucknerdz.com/docs`)
-- **Antora Docs**: Located in `docs/` for use with the internal documentation site's Antora playbook
+- **Antora Docs**: `docs/` component on [FTN Docs](https://docs.foodtrucknerdz.com/help/latest/) via the [`FoodTruckNerdz/docs`](https://github.com/FoodTruckNerdz/docs) Antora playbook
 
 ### Documentation
 
 - **Public Site**: `help.foodtrucknerdz.com` (landing) and `help.foodtrucknerdz.com/docs` (Starlight docs)
-- **Internal Antora**: Included in `docs.foodtrucknerdz.com` via the `docs` repository's Antora playbook
+- **Contributor docs**: [Developing guide](https://docs.foodtrucknerdz.com/help/latest/developing/) (local setup, allow-list `.gitignore`) and [changelog](https://docs.foodtrucknerdz.com/help/latest/changelog/) on FTN Docs
 
 ## Getting Started
 
 ```bash
-# Install dependencies
 pnpm install
-
-# Start dev server
 pnpm dev
-
-# Build for production
 pnpm build
 ```
 
@@ -62,7 +61,3 @@ Project Link: https://github.com/FoodTruckNerdz/help
 Site: https://www.foodtrucknerdz.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Changelog
-
-See [the changelog](docs/modules/ROOT/pages/changelog.adoc).

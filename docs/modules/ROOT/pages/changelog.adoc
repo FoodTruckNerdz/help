@@ -1,47 +1,31 @@
 = Changelog
-:toc:
-:toclevels: 3
 
-Functional changes to the help documentation site, newest first. Backfilled from git history on 2026-10-23.
+Functional changes to the Help repository. Each date links to a detail page.
 
 == 2026-10-23
 
-=== Allow-list .gitignore
-
-* Only listed paths are tracked.
+* xref:changelog-details/2026-10-23-allow-list-gitignore.adoc[2026-10-23] — Allow-list `.gitignore` and contributor documentation
 
 == 2026-10-06
 
-=== Dependabot for GitHub Actions
-
-* Monthly grouped updates for workflow actions.
+* xref:changelog-details/2026-10-06-dependabot.adoc[2026-10-06] — Dependabot for GitHub Actions
 
 == 2026-10-05
 
-=== Encoding guard
-
-* CI check rejects UTF-8 mojibake.
+* xref:changelog-details/2026-10-05-encoding-guard.adoc[2026-10-05] — UTF-8 encoding guard in CI
 
 == 2026-08-07
 
-=== README header
-
-* Centered README header with linked badges, following the public template.
+* xref:changelog-details/2026-08-07-readme-template.adoc[2026-08-07] — README layout and centered GitHub header
 
 == 2026-06-13
 
-=== Shorter component title
-
-* Shortened Antora title; added dprint config.
+* xref:changelog-details/2026-06-13-tooling.adoc[2026-06-13] — dprint, Antora title, pretext dependency
 
 == 2026-01-26
 
-=== Docs moved to docs/
-
-* The Antora component now lives at `docs/`.
+* xref:changelog-details/2026-01-26-antora-layout.adoc[2026-01-26] — Antora component path under `docs/`
 
 == 2025-12-01
 
-=== Initial help site
-
-* Help documentation project created.
+* xref:changelog-details/2025-12-01-initial-commit.adoc[2025-12-01] — Initial Help site and Antora scaffold

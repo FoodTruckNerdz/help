@@ -1,0 +1,61 @@
+[#readme-top]
+[.text-center]
+--
+image:https://img.shields.io/github/contributors/FoodTruckNerdz/help.svg?style=for-the-badge[Contributors,link=https://github.com/FoodTruckNerdz/help/graphs/contributors]
+image:https://img.shields.io/github/forks/FoodTruckNerdz/help.svg?style=for-the-badge[Forks,link=https://github.com/FoodTruckNerdz/help/network/members]
+image:https://img.shields.io/github/stars/FoodTruckNerdz/help.svg?style=for-the-badge[Stargazers,link=https://github.com/FoodTruckNerdz/help/stargazers]
+image:https://img.shields.io/github/issues/FoodTruckNerdz/help.svg?style=for-the-badge[Issues,link=https://github.com/FoodTruckNerdz/help/issues]
+image:https://img.shields.io/badge/Docs-FoodTruckNerdz-blue?style=for-the-badge[Docs | FoodTruckNerdz,link=https://docs.foodtrucknerdz.com/help/latest/]
+image:https://github.com/FoodTruckNerdz/help/actions/workflows/encoding-guard.yml/badge.svg[Encoding guard CI,link=https://github.com/FoodTruckNerdz/help/actions/workflows/encoding-guard.yml]
+--
+
+[.text-center]
+= FoodTruckNerdz Help Center
+
+[.text-center]
+The Help site and help docs for users.
+
+[.text-center]
+link:https://help.foodtrucknerdz.com[Visit site] ·
+link:https://github.com/FoodTruckNerdz/help/issues[Report Bug]
+
+:toc:
+:toc-placement: macro
+
+toc::[]
+
+== About the project
+
+This repository contains the customer-facing help documentation for FoodTruckNerdz.
+
+=== Structure
+
+* *Astro + Starlight* — Landing page at the site root (`help.foodtrucknerdz.com`) and documentation at `/docs`
+* *Antora component* — `docs/` is published on link:https://docs.foodtrucknerdz.com/help/latest/[FTN Docs] via the `FoodTruckNerdz/docs` playbook
+
+=== Documentation
+
+* Public site: `help.foodtrucknerdz.com` (landing) and `help.foodtrucknerdz.com/docs` (Starlight)
+* Org docs: contributor guide and changelog in the Antora component (`docs/modules/ROOT/pages/`)
+
+== Getting started
+
+[source,bash]
+----
+pnpm install
+pnpm dev
+pnpm build
+----
+
+Contributors: see the link:https://docs.foodtrucknerdz.com/help/latest/developing/[developing guide] for repository layout and the allow-list `.gitignore` policy.
+
+== Contact
+
+Food Truck Nerdz — mailto:support@foodtrucknerdz.com[support@foodtrucknerdz.com]
+
+Project: https://github.com/FoodTruckNerdz/help
+
+Site: https://www.foodtrucknerdz.com/
+
+[.text-center]
+link:#readme-top[Back to top] ↑

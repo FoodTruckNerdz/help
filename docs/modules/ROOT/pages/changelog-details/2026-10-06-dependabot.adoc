@@ -1,0 +1,9 @@
+= 2026-10-06 — Dependabot for GitHub Actions
+
+== Summary
+
+Enabled Dependabot to keep GitHub Actions dependencies current.
+
+== Changes
+
+* `.github/dependabot.yml` with monthly grouped updates for the `github-actions` ecosystem

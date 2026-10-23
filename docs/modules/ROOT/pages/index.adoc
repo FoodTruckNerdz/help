@@ -6,3 +6,8 @@ This component contains customer-facing help documentation for FoodTruckNerdz.
 
 This documentation is part of the team documentation site and is also available at link:https://help.foodtrucknerdz.com/docs[help.foodtrucknerdz.com/docs].
 
+== For contributors
+
+* xref:developing.adoc[Developing] — local setup, repository layout, allow-list `.gitignore`
+* xref:changelog.adoc[Changelog] — functional change history
+

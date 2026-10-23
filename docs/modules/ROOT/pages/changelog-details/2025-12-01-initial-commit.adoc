@@ -1,0 +1,12 @@
+= 2025-12-01 — Initial commit
+
+== Summary
+
+Created the FoodTruckNerdz Help repository with Astro, Starlight, and an Antora documentation component.
+
+== Changes
+
+* Astro + Starlight app with sample guides under `src/content/docs/`
+* Landing page at `src/pages/index.astro`
+* Antora component under `docs/antora/` (later flattened to `docs/`)
+* Standard Node tooling (`package.json`, `tsconfig.json`, VS Code launch config)
