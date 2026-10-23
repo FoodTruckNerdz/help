@@ -1,0 +1,11 @@
+= 2026-08-07 — README template alignment
+
+== Summary
+
+Aligned the repository README with the org’s centered GitHub header pattern (badges, title, table of contents).
+
+== Changes
+
+* Restructured `README.md` using the Best README Template sections
+* Centered HTML header with contributor, fork, star, and issue badges
+* Linked public site and issue tracker from the hero section

@@ -1,0 +1,14 @@
+= 2026-10-05 — Encoding guard CI
+
+== Summary
+
+Added a reusable encoding guard workflow to catch double-encoded UTF-8 (mojibake) in tracked text files.
+
+== Changes
+
+* `.github/workflows/encoding-guard.yml` calling `dev-centr/agent-rules` reusable workflow
+* Runs on `push` to `main` and on all pull requests
+
+== Operations
+
+Failures usually mean a text file was saved with the wrong encoding on Windows. Re-save as UTF-8 or add an documented exception per agent-rules `general/text-encoding.md`.
