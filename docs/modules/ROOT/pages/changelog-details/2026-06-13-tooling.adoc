@@ -1,0 +1,11 @@
+= 2026-06-13 — Tooling and Antora metadata
+
+== Summary
+
+Added formatting tooling and small dependency and metadata updates.
+
+== Changes
+
+* `dprint.jsonc` for consistent formatting
+* Shortened Antora component title in `antora.yml`
+* Added `@chenglou/pretext` dependency

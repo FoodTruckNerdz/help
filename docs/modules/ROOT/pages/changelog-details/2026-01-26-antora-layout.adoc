@@ -1,0 +1,11 @@
+= 2026-01-26 — Antora layout under `docs/`
+
+== Summary
+
+Moved the Antora component from `docs/antora/` to `docs/` so `start_path: docs` in the org playbook matches repository layout.
+
+== Changes
+
+* Relocated `antora.yml` and `modules/` to `docs/`
+* Added `docs/README.adoc` describing the component structure
+* Updated root `README.md` paths

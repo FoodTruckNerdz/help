@@ -16,6 +16,7 @@
 !/package.json
 !/public/**
 !/README.md
+!/README.adoc
 !/src/**
 !/tsconfig.json
 
